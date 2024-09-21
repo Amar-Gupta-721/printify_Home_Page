@@ -3,7 +3,6 @@ import React from 'react';
 const Features = () => {
   return (
     <div className="flex flex-col md:flex-row justify-center items-center gap-8 px-8 md:px-16 lg:px-52 py-8 my-24">
-      {/* Higher Profits Section */}
       <div className="flex flex-col text-center md:text-left">
         <img src="./higher-profits.svg" alt="Piggy Bank" className="w-20 h-20 md:w-32 md:h-32 mx-auto md:mx-0" />
         <h3 className="text-lg font-semibold mt-4">Higher Profits</h3>
@@ -12,7 +11,6 @@ const Features = () => {
         </p>
       </div>
 
-      {/* Robust Scaling Section */}
       <div className="flex flex-col text-center md:text-left">
         <img src="./robust-scaling.svg" alt="Graph" className="w-20 h-20 md:w-32 md:h-32 mx-auto md:mx-0" />
         <h3 className="text-lg font-semibold mt-4">Robust Scaling</h3>
@@ -21,7 +19,6 @@ const Features = () => {
         </p>
       </div>
 
-      {/* Best Selection Section */}
       <div className="flex flex-col text-center md:text-left">
         <img src="./best-selection.svg" alt="Smartphone" className="w-20 h-20 md:w-32 md:h-32 mx-auto md:mx-0" />
         <h3 className="text-lg font-semibold mt-4">Best Selection</h3>

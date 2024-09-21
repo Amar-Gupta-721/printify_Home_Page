@@ -3,16 +3,13 @@ import React from 'react';
 const StoreConnections = () => {
   return (
     <div className="bg-white w-full py-16 px-4 md:px-52 text-center">
-      {/* Title Section */}
-      <h2 className="text-3xl md:text-4xl font-bold mb-8">Connect your store</h2>
+=      <h2 className="text-3xl md:text-4xl font-bold mb-8">Connect your store</h2>
       <p className="text-gray-500 text-lg mb-8">
         Printify easily integrates with major e-commerce platforms and marketplaces
       </p>
 
-      {/* Logo Grid */}
-      <div className="relative flex justify-center items-center">
-        {/* Center Icon */}
-        <div className="w-20 h-20 bg-green-500 rounded-lg flex justify-center items-center absolute z-10">
+=      <div className="relative flex justify-center items-center">
+=        <div className="w-20 h-20 bg-green-500 rounded-lg flex justify-center items-center absolute z-10">
           <img
             src="./Printify.png"
             alt="Center Logo"
@@ -20,9 +17,7 @@ const StoreConnections = () => {
           />
         </div>
 
-        {/* Other Platform Logos */}
         <div className="grid grid-cols-3 gap-10 md:gap-16 lg:gap-20 mx-auto max-w-screen-lg">
-          {/* Top row */}
           <div className="w-20 h-20 bg-gray-100 rounded-lg flex justify-center items-center">
             <img src="./B.png" alt="Logo 1" className="w-full h-full rounded-xl" />
           </div>
@@ -33,17 +28,14 @@ const StoreConnections = () => {
             <img src="./Bird.png" alt="Logo 3" className="w-full h-full rounded-xl" />
           </div>
 
-          {/* Middle row (skipping center for the green logo) */}
           <div className="w-20 h-20 bg-gray-100 rounded-lg flex justify-center items-center">
             <img src="./SquareSpace.png" alt="Logo 4" className="w-full h-full rounded-xl" />
           </div>
-          {/* Empty div for spacing */}
           <div></div>
           <div className="w-20 h-20 bg-gray-100 rounded-lg flex justify-center items-center">
             <img src="./Woo.png" alt="Logo 5" className="w-full h-full rounded-xl" />
           </div>
 
-          {/* Bottom row */}
           <div className="w-20 h-20 bg-gray-100 rounded-lg flex justify-center items-center">
             <img src="./Wix.png" alt="Logo 6" className="w-full h-full rounded-xl" />
           </div>

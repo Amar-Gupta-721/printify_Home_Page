@@ -5,7 +5,6 @@ import { FaXTwitter } from 'react-icons/fa6';
 const Footer = () => {
   return (
     <footer className="text-gray-800 px-4 lg:px-16 xl:px-40 py-12">
-      {/* Top section with logo and social icons */}
       <div className="flex flex-col md:flex-row justify-between items-center pb-12">
         <div className="mb-6 md:mb-0">
           <img src="/logo.svg" alt="Printify Logo" className="h-10" />
@@ -21,10 +20,8 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Grid section with footer links */}
       <div className="container mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12">
-          {/* Column 1 */}
           <div>
             <h3 className="text-lg font-bold mb-4">Integrations</h3>
             <ul className="text-sm space-y-4">
@@ -42,7 +39,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Column 2 */}
           <div>
             <h3 className="text-lg font-bold mb-4">Discover</h3>
             <ul className="text-sm space-y-4">
@@ -61,7 +57,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Column 3 */}
           <div>
             <h3 className="text-lg font-bold mb-4">Start Selling</h3>
             <ul className="text-sm space-y-4">
@@ -81,7 +76,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Column 4 */}
           <div>
             <h3 className="text-lg font-bold mb-4">Printify</h3>
             <ul className="text-sm space-y-4">
